@@ -1,0 +1,546 @@
+﻿body { margin:0; padding:0;}
+/*标题*/
+.p1 {margin-top:2em;margin-bottom:2em;
+	text-align:center;
+	font-size:28px;	
+	color:#0468bb;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-weight:normal;
+	line-height:2em;
+	}/*标题1*/
+.p2 {margin-top:1.5em;margin-bottom:1.3em;
+	font-size:26px;
+	text-align:left;
+	color:#0468bb;
+	text-indent:0em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-weight:normal;
+	line-height:2em;
+	}/*标题2*/
+
+/*图书名称--------------------------------------*/
+.p3 {margin-top:1.5em;margin-bottom:1.3em;
+	font-size:22px;
+	text-align:left;
+	color:#0468bb;
+	text-indent:0em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;/*微软雅黑*/
+	font-weight:normal;
+	line-height:2em;
+	}/*标题3*/
+/*图书名称--------------------------------------*/
+
+/*副书名/作者/译者/英文书名---------------------*/
+.p4 {margin-top:1.5em;margin-bottom:1.3em;
+	font-size:18px;
+	text-align:left;
+	color:#0468bb;
+	text-indent:0em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-weight:normal;
+	line-height:2em;
+}/*标题4*/
+/*副书名/作者/译者/英文书名---------------------*/
+
+.p5 {margin-top:1.5em;margin-bottom:1.3em;
+	font-size:16px;
+	text-align:left;
+	color:#0468bb;
+	text-indent:0em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-weight:normal;
+	line-height:2em;
+	}/*标题5*/
+
+/*丛书系列-------------------------------*/
+.p6 {margin-top:1.5em;margin-bottom:1.3em;
+	font-size:16px;
+	text-align:left;
+	color:#0468bb;	
+	text-indent:0em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-weight:normal;
+	line-height:2em;
+	}/*标题6*/
+/*丛书系列-------------------------------*/
+
+/*知识点标题-------------------------------*/
+.p7 {
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;/*雅黑*/
+	font-size:16px; 
+	text-align: center;
+	background-color: #d9d9d9;
+}
+/*知识点标题-------------------------------*/
+
+/*小贴士标题-------------------------------*/
+.p8 {
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;/*雅黑*/
+	font-size: 1.0em; 
+	text-align:left;
+	text-indent:0em;
+	background-color: #F7ABAD;
+    padding: 0.5em;
+}
+/*小贴士标题-------------------------------*/
+
+/* 小标题 */
+.p9 {
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;/*雅黑*/
+	font-size: 1.0em; 
+	text-align:left;
+	text-indent:0em;
+    margin-top: 2.2em;
+	margin-bottom: 1.7em;
+	margin-left: 2em;
+	color:#0468bb;
+}
+
+/*一般修饰序和正文中出现的小标题、名人名言*/
+.yanse {
+	color:#0468bb;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	text-indent:2em;
+	font-size:16px;
+	line-height:2em;
+	}
+/*一般修饰序和正文中出现的小标题、名人名言*/
+
+/*一般修饰序和正文中出现的小标题、名人名言*/
+.yanse1{
+	color:#0468bb;
+	font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+	text-indent:2em;
+	font-size:16px;
+	line-height:2em;
+	}
+/*一般修饰序和正文中出现的小标题、名人名言*/
+
+
+/*居右-----------------------------------------*/
+.you {
+	text-align:right;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-size:16px;
+	line-height:2em;
+	}/*一般修饰序和正文中出现的名人名言作者*/
+/*居右-----------------------------------------*/
+
+
+/*引文居右-----------------------------------------*/
+.you1 {
+	text-align:right;
+	font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+	font-size:16px;
+	line-height:2em;
+	}
+/*引文居右-----------------------------------------*/
+
+
+/*正文------------------------------------------*/
+.ziti {
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	text-indent:2em;
+	font-size:16px;
+	line-height:2em;
+	}
+/*正文------------------------------------------*/
+
+
+
+/*正文强制靠左------------------------------------------*/
+.ziti0{
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+        text-align:left;
+        text-indent:0em;
+	font-size:16px;
+	line-height:2em;
+	}
+/*正文强制靠左------------------------------------------*/
+
+
+/*1级标题小字-顶格--------------------------------------*/
+.ziti0a{
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+    text-align:left;
+    text-indent:0em;
+	font-size:16px;
+	margin-bottom: 2em;
+	}
+/*1级标题小字-顶格--------------------------------------*/
+
+.italic {
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-size:16px;
+        font-style: italic;
+	line-height:2em;
+}
+
+/*代码--------------------------------------*/
+.ziti1 {
+   font-family:Courier New;
+   font-size:14px;
+   margin-left:2em;
+   padding:0;
+   line-height:110%;
+ }
+/*代码--------------------------------------*/
+
+/*代码不加粗*/
+.code-span{
+    font-family:Courier New;
+    font-size:14px;
+    color: #0468bb;
+    line-height:110%;
+}
+.code-span1 {
+    font-family:Courier New;
+    font-size:14px;
+    color: #FF0000;
+    line-height:110%;
+}
+.code-span2 {
+    font-family:Courier New;
+    font-size:14px;
+    color:green;
+    line-height:110%;
+}
+.code-span3 {
+    font-family:Courier New;
+    font-size:14px;
+    color:#352B84;
+    line-height:110%;
+}
+/*代码不加粗*/
+
+/*代码加粗--------------------------------------*/
+.code-span-b{
+   font-family:Courier New;
+   font-size:14px;
+   color: #0468bb;
+   font-weight: bold;
+   line-height:110%;
+ }
+/*代码加粗--------------------------------------*/
+
+/*代码注释--------------------------------------*/
+.code-cn{
+   font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;
+   font-size:14px;
+   color:green;
+   line-height:110%;
+ }
+.code-cn1{
+    font-family: STKaiti;
+    color:#0468bb;
+    font-size:14px;
+    line-height:110%;
+}
+.code-cn2{
+   font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;
+   font-size:14px;
+   color:#FF0000; 
+   line-height:110%;
+}
+
+/*代码注释--------------------------------------*/
+
+
+
+/*版权所有信息-----------------------------*/
+.ziti2 {
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-size:16px;
+	line-height:150%;
+	text-align:left;
+	}
+/*版权所有信息-----------------------------*/
+
+/*客服信息---------------------------------*/
+.ziti3 {
+	font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+	font-size:16px;
+	line-height:100%;
+	text-align:left;
+	}
+/*客服信息---------------------------------*/
+
+/*ISBN号-----------------------------------*/
+.ziti4 {
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-size:16px;
+	line-height:100%;
+	color:#0468bb;
+	text-align:left;
+	}
+/*ISBN号-----------------------------------*/
+
+/*代码说明-----------------------------------*/
+.ziti5 {
+   font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+   text-indent:2em;
+   font-size:14px;
+   line-height:160%;
+	}
+/*代码说明-----------------------------------*/
+
+/*引文---------------------------------*/
+.ziti6 {
+   font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+   text-indent:2em;
+   font-size:16px;
+   line-height:2em;
+	}	
+/*引文---------------------------------*/
+
+
+
+/*引文列表-----------------------------------*/
+.ziti7{
+	font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;
+   	text-indent:3em;
+  	font-size:16px;
+  	line-height:2em;
+     }
+/*引文列表-----------------------------------*/
+
+
+
+/*图说-------------------------------------*/
+.middle-img {
+	text-align:center; 
+	margin:0;
+	font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+	font-size:16px;
+	line-height:2em;
+	}  /*用作插图及图注*/
+.middle-img-1 {
+	text-align:justify; 
+	margin:0;
+	font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+	font-size:16px; 
+	line-height:2em;
+	}  /*用作插图及图注*/
+/*图说-------------------------------------*/
+
+/*引文标题---------------------------------*/
+.middle-img1 {
+	text-align:center; 
+	margin:0;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-size:16px;
+	line-height:2em;
+	}
+/*引文标题---------------------------------*/
+
+
+/*图片*/
+.pic {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+  }/*居中*/
+/**/
+/*图片*/
+.pic-float-l {float:left;margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:0px;}/*居左绕文*/
+/*图片*/
+.pic-float-r {float:right;margin-top:10px;margin-right:0px;margin-left:10px;margin-bottom:10px;}/*居右绕文*/
+/*图片*/
+.pic-l {text-align:left;margin-top:10px;margin-bottom:10px;margin-left:2em;}/*居左不绕文*/
+/*图片*/
+.pic-r {text-align:right;margin-top:10px;margin-right:0px;margin-bottom:10px;}/*居右不绕文*/
+ .pic img{width:98%;}
+ p{ margin-top:1.0em;margin-bottom:1.0em;}
+
+
+/*注解内容--------------------------------*/
+.fnote {
+	font-size:16px;
+	font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;
+	text-indent:0em;
+	margin:0;
+	text-align:justify;
+	line-height:2em;
+	}
+/*注解内容--------------------------------*/
+
+/*目录页*/
+.contents-title {
+	font-size:2em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	line-height:2em;
+	text-align:center;
+	font-weight:normal;
+	}
+/*目录一级标题*/
+.contents1 {
+	font-size:16px;
+	margin-left:0em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	line-height:2em;
+	text-align:justify;
+	}
+/*目录二级标题*/
+.contents2 {
+	font-size:16px;
+	margin-left:1em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	line-height:2em;
+	text-align:justify;
+	}
+/*目录三级标题*/
+.contents3 {
+	font-size:16px;
+	margin-left:2em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	line-height:2em;
+	text-align:justify;
+	}
+/*目录四级标题*/
+.contents4 {
+	font-size:16px;
+	margin-left:3em;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	line-height:2em;
+	text-align:justify;
+	}
+/*代码或代码上方文字*/
+.codelist{
+    font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+    font-size:16px;
+    text-indent: 2em;
+    line-height:2em;
+    background-color: #efefef;
+    border-bottom: solid 1px #d9d9d9;
+}
+/*标题左边框*/
+.div0{
+	padding: 0.5em 0.5em 0.5em 1em;
+	margin: 5% 0em 0em 0.5em;
+	border-left: solid 1.5px #d9d9d9;
+}
+/*线框层*/
+.div1{
+	padding: 0.5em;
+	margin: 1.5em 0 1.5em 0;
+	border: solid 1px #d9d9d9;
+        background-color: #efefef;
+}
+/*上下虚线框*/
+.div2 {
+	border-top: dotted 1px #000000;
+	border-bottom: dotted 1px #000000;
+	padding: 0.2em;
+}
+/*小贴士背景框*/
+.div3{
+	padding: 0.4em;
+	margin-top: 0.2em;
+        background-color: #FDE7E6;
+}
+/*声明区域*/
+.div4{
+	margin-top: 7em;
+}
+/*无背景线框区域 */
+.div5 {
+	padding: 0.5em;
+	margin: 1.5em 0em 1.5em 0em;
+	border: solid 1px #d9d9d9;
+}
+/* 灰色背景区域样式 */
+.div6{
+	padding: 0.5em;
+	margin: 1.5em 0em 1.5em 0em;
+	background-color: #efefef;
+	border-bottom: solid 1px #d9d9d9;
+}
+/*带颜色*/
+.color{
+    color:#632423;
+}
+/*加粗*/
+.bold {
+    font-weight: bold;
+}
+/*段落中图1em*/
+.formula-1em {
+	height: 1em;
+}
+/*段落中图1.5em*/
+.formula-1-5em {
+	height: 1.5em;
+}
+/*段落中图2em*/
+.formula-2em {
+	height: 2em;
+}
+/*段落中图2.5em*/
+.formula-2-5em {
+  height: 2.5em;
+}
+/*诗歌标题样式*/
+.poem-t1{ 
+    font-size:28px;	
+    color:#0468bb;
+    font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+    font-weight:normal;
+    line-height:2em;
+}
+
+/*诗歌标题样式2*/
+.poem-t2{ 
+    font-size:28px;	
+    font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+    font-weight:normal;
+}
+
+/*诗歌标题样式3*/
+.poem-t3{ 
+    font-size:26px;	
+    font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+    font-weight:normal;
+    line-height:2em;
+}
+
+/*诗歌样式1*/
+.poem1{ 
+    font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+    font-size:16px;
+    margin-left: 2em;
+    line-height: 200%;
+}
+/*诗歌样式2*/
+.poem2{ 
+    font-family: "STKaiti","华文楷体","楷体","楷体_GB2312",SimKai,KaiTi!important;/*华文楷体*/
+    font-size:16px;
+    margin-left: 2em;
+    line-height: 200%;
+}
+a {color:#0468bb;text-decoration:none;}
+a:hover {color:#F60; text-decoration:underline;}
+img {border:0;}
+.mu_1 {
+	font-size:28px;	
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+        color:#0468bb;
+	font-weight: normal;
+	text-align:left;
+	line-height:2em;
+}
+.mu_2 {
+	color:#000;
+	font-size:26px;
+	font-family: "Microsoft YaHei","微软雅黑","黑体",SimHei,sans-serif,helvetica;
+	font-weight: normal;
+	text-align:left;
+	line-height:2em;
+	text-indent:2em;
+	}
+.mu_3 {
+	font-size:16px;
+    font-family: MicrosoftYaHei;
+    text-align:justify;
+    text-indent:4em;
+    line-height:2em;
+	}
