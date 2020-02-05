@@ -2,7 +2,8 @@
 
 因为疫情影响[机械工业出版社在线阅读免费](http://ebooks.cmanuf.com/)，恰好其又有大量的计算机的好书，所以就心生了把计算机方向的所有的书都下载下来的念头。（至于整个网站的书，硬盘存不下啊2333（现在这个网站接口开着，但是web访问不了，所以凭印象写。
 
-等我啥时候有优秀的网络（家里网太差了）把所有资源放到百度云上，就把链接扔这里。现在可以根据[html.7z](https://github.com/yqylh/-Reptile/blob/master/html.7z)和[pdf.txt](https://github.com/yqylh/-Reptile/blob/master/PDF.txt)下载
+按照普通用户单次转存500的上限 分了三个文件夹
+链接：https://pan.baidu.com/s/1ZeND0YxnTk6Gc2RQFWsh-Q     提取码：xhcw 
 
 ## 观察
 
