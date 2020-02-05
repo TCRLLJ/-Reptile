@@ -2,7 +2,7 @@
 
 因为疫情影响[机械工业出版社在线阅读免费](http://ebooks.cmanuf.com/)，恰好其又有大量的计算机的好书，所以就心生了把计算机方向的所有的书都下载下来的念头。（至于整个网站的书，硬盘存不下啊2333（现在这个网站接口开着，但是web访问不了，所以凭印象写。
 
-等我啥时候有优秀的网络（家里网太差了）把所有资源放到百度云上，就把链接扔这里。
+等我啥时候有优秀的网络（家里网太差了）把所有资源放到百度云上，就把链接扔这里。现在可以根据[html.7z](https://github.com/yqylh/-Reptile/blob/master/html.7z)和[pdf.txt](https://github.com/yqylh/-Reptile/blob/master/PDF.txt)下载
 
 ## 观察
 
@@ -12,7 +12,7 @@
 
 对于pdf下载，稍微观察下载链接可以知道，其下载链接的url是由ISBN+版次号决定的，感谢同学cyr把所有的图书的isbn和版次号都爬下来了，具体方法观察网站的接口大概可以知道，盲猜不难（（
 
-isbn和版次号爬下来以后去重，根据链接格式就可以生成一份链接合集，用idm批量下载。文件为[pdf.txt ](./pdf.txt)。下载完以后还有一个问题，该网站命名文件是按照isbn+版次号命名的，虽然有利于他们的管理，但是不例如我们查找图书，于是该同学给了我另外一份文件[pdf2.txt](./pdf2.txt) 其内为 推算出的文件名|书名，于是我写了一个自动rename的[C++程序](./rename.cpp)
+isbn和版次号爬下来以后去重，根据链接格式就可以生成一份链接合集，用idm批量下载。文件为[pdf.txt ](https://github.com/yqylh/-Reptile/blob/master/pdf.txt)。下载完以后还有一个问题，该网站命名文件是按照isbn+版次号命名的，虽然有利于他们的管理，但是不例如我们查找图书，于是该同学给了我另外一份文件[pdf2.txt](https://github.com/yqylh/-Reptile/blob/master/pdf2.txt) 其内为 推算出的文件名|书名，于是我写了一个自动rename的[C++程序](https://github.com/yqylh/-Reptile/blob/master/rename.cpp)
 
 ```c++
     std::string s;
@@ -51,7 +51,7 @@ isbn和版次号爬下来以后去重，根据链接格式就可以生成一份�
 
 #### 找到所有H5阅读的书的id
 
-（开始是由qer找所有的H5书的id，但是不知道他的方法是啥，才找了一点就被限制访问了，继续鞭尸qer，由于我采用的方法直接调用的是阅读，不需要任何验证，所以不会被限制访问，而且qer给我的还是有重复的，我又写了去重，这在[downH5.cpp](./downH5.cpp)里 懒得再说了2333）
+（开始是由qer找所有的H5书的id，但是不知道他的方法是啥，才找了一点就被限制访问了，继续鞭尸qer，由于我采用的方法直接调用的是阅读，不需要任何验证，所以不会被限制访问，而且qer给我的还是有重复的，我又写了去重，这在[downH5.cpp](https://github.com/yqylh/-Reptile/blob/master/downH5.cpp)里 懒得再说了2333）
 
 多打开几本书，查看接口调用可以发现，每本书一定有一个文件，其为`'http://www.hzcourse.com/resource/readBook?path=/openresources/teach_ebook/uncompressed/'+temp+'/OEBPS/Text/chapter.xhtml'` 然后每本书的id基本都是五位数，从网站的存书量看id不会超过100000，于是开始从0到100000开始枚举是否存在这个文件。程序[getCanReadList](getCanReadList.js)如下
 
@@ -161,9 +161,9 @@ main = async (a, b) =>{
 main(0,mmdm.length)
 ```
 
-以上两段代码均在[getCanDownList](./getCanDownList.js)里。最开始获取的所有的id（3000个左右），筛去不能看的，剩下了800多个，估算了一下恰好+600是一千四左右，恰好是计算机图书的数量，难道只有计算机的书有H5阅读的方式？我怀疑网站在搞我。
+以上两段代码均在[getCanDownList](https://github.com/yqylh/-Reptile/blob/master/getCanDownList.js)里。最开始获取的所有的id（3000个左右），筛去不能看的，剩下了800多个，估算了一下恰好+600是一千四左右，恰好是计算机图书的数量，难道只有计算机的书有H5阅读的方式？我怀疑网站在搞我。
 
-在有了这800+个id对应的所有下载链接以后，开始写脚本下载输出html，这里面有好多坑qnq，先把[最后的代码](./downH5.js)放上去
+在有了这800+个id对应的所有下载链接以后，开始写脚本下载输出html，这里面有好多坑qnq，先把[最后的代码](https://github.com/yqylh/-Reptile/blob/master/downH5.js)放上去
 
 ```js
 var request = require('request');
@@ -287,7 +287,7 @@ name = name.replace(/\//g, '-');
 name = name.replace(/:/g, '-');
 ```
 在从三维数组获取名字以后，把所有的/:替换成-
-至于空格，（开始的时候我算错了名字的长度，所以所有的名字都是以空格结尾）为了方便后序的处理，我写了脚本进行rename,[mkpdf.js](./mkpdf.js)
+至于空格，（开始的时候我算错了名字的长度，所以所有的名字都是以空格结尾）为了方便后序的处理，我写了脚本进行rename,[mkpdf.js](https://github.com/yqylh/-Reptile/blob/master/mkpdf.js)
 
 ```js
 fs.readdir(__dirname + '/temp', async (err, file) =>{
@@ -333,7 +333,7 @@ fs.readdir(__dirname + '/html', async (err, file) =>{
 })
 ```
 
-这段[脚本](./downH5.js)是因为有的时候因为网络问题，有些章节会下载失败，我遍历了所有的文件，对于含有*The proxy server received an invalid*的要重新下载。
+这段[脚本](https://github.com/yqylh/-Reptile/blob/master/downH5.js)是因为有的时候因为网络问题，有些章节会下载失败，我遍历了所有的文件，对于含有*The proxy server received an invalid*的要重新下载。
 
 3. 在连接时，因为不同章节的请求完成的时间不一定相同，request又是异步函数，于是写了getBook调用request函数，传参数k，在request完成后，把结果放到数组第K为，然后当所有的结果都获取了以后，按照数组顺序连起来。这时还有一个问题，每个XHTML里面的图片都用的网站的相对位置，需要根据请求的接口全都替换成网络绝对位置（按照我写的代码会把css的位置也替换掉，但是所有的css都是一样的，我就提前下好了一份放在了Styles文件夹了，所以还需要再把css换成相对位置）特别的是，有的XHTML会出现问题 例如`uncompressed \`中间多了一个空格，所以要全都替换掉。具体实现如下
 
